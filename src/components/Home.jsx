@@ -19,7 +19,7 @@ const Home = () => {
         hover:scale-105 hover:shadow-lg cursor-pointer text-sm sm:text-base">
           {t("home.hero.cta")}
         </Link>
-        <button className="mt-6 sm:mt-8 bg-amber-600 text-white py-2.5 sm:py-3 px-5 sm:px-6 rounded-xl self-center transition-all 
+        <button className="mt-6 sm:mt-8 bg-red-800 text-white py-2.5 sm:py-3 px-5 sm:px-6 rounded-xl self-center transition-all 
         duration-300 hover:scale-105 hover:shadow-lg cursor-pointer text-sm sm:text-base">
           {t("home.hero.cta2")}
         </button>
