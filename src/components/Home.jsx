@@ -15,7 +15,7 @@ const Home = () => {
         </p>
         <div className="flex justify-center gap-4">
         <Link to="/contact" className="mt-6 sm:mt-8 border border-gray-900 py-2.5 sm:py-3 px-5 sm:px-6 rounded-xl self-center text-center
-        hover:bg-orange-200/60 hover:border-orange-200/10 transition-all duration-300 
+        hover:bg-gray-900 hover:text-white hover:border-gray-900 transition-all duration-300 
         hover:scale-105 hover:shadow-lg cursor-pointer text-sm sm:text-base">
           {t("home.hero.cta")}
         </Link>

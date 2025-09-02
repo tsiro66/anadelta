@@ -13,7 +13,7 @@ const Services = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-12 pb-20 max-w-7xl mx-auto">
           {/* Service 1 - Κοπή και χάραξη υλικών */}
-          <div className="ring-1 ring-gray-900 rounded-2xl p-8 shadow-sm hover:shadow-lg hover:ring-2 transition-all duration-300 ease-in-out">
+          <div className="ring-1 ring-amber-600 rounded-2xl p-8 shadow-sm hover:shadow-lg hover:ring-2 transition-all duration-300 ease-in-out">
             <div className="flex items-center mb-6">
               <h3 className="text-2xl font-bold text-center text-gray-900 mb-3">
                 Κοπή και χάραξη υλικών
@@ -25,7 +25,7 @@ const Services = () => {
           </div>
 
           {/* Service 2 - Σχεδιασμός Μακέτας */}
-          <div className="ring-1 ring-gray-900 rounded-2xl p-8 shadow-sm hover:shadow-lg hover:ring-2 transition-all duration-300 ease-in-out">
+          <div className="ring-1 ring-red-700 rounded-2xl p-8 shadow-sm hover:shadow-lg hover:ring-2 transition-all duration-300 ease-in-out">
             <div className="flex items-center mb-6">
               <h3 className="text-2xl font-bold text-center text-gray-900 mb-3">
                 Σχεδιασμός Μακέτας
@@ -89,7 +89,7 @@ const Services = () => {
         {/* CTA Button */}
         <div className="text-center pb-20">
           <Link to="/contact" className="inline-block border border-gray-900 py-2.5 sm:py-4 px-5 sm:px-8 rounded-xl self-center 
-         hover:bg-gray-900 hover:text-white hover:scale-105 hover:shadow-lg transition-all duration-300 cursor-pointer text-lg sm:text-xl">
+         hover:bg-amber-600 hover:border-amber-600 hover:text-white hover:scale-105 hover:shadow-lg transition-all duration-300 cursor-pointer text-lg sm:text-xl">
             Επικοινωνήστε μαζί μας
           </Link>
         </div>

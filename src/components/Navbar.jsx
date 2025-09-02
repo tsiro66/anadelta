@@ -57,13 +57,12 @@ const Navbar = () => {
               onMouseEnter={() => setIsSupportDropdownOpen(true)}
               onMouseLeave={() => setIsSupportDropdownOpen(false)}
             >
-              <Link 
-                to="/support" 
-                className="text-gray-900 hover:text-amber-600 transition duration-300 ease-in-out flex items-center gap-1"
+              <div 
+                className="text-gray-900 transition duration-300 ease-in-out flex items-center gap-1 cursor-default"
               >
                 {t("support")}
                 <IoChevronDown className={`transition-transform duration-200 ${isSupportDropdownOpen ? 'rotate-180' : ''}`} />
-              </Link>
+              </div>
               
               {/* Desktop Support Dropdown */}
               <div className={`absolute left-0 mt-2 w-48 border bg-amber-50 border-gray-200 rounded-md shadow-lg z-50 transition-all duration-200 ${
